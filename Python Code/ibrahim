@@ -1,0 +1,43 @@
+##########logistic regression#######
+'precision', 'predicted', average, warn_for)
+              precision    recall  f1-score   support
+
+         ham       0.85      1.00      0.92       951
+        spam       0.00      0.00      0.00       164
+
+   micro avg       0.85      0.85      0.85      1115
+   macro avg       0.43      0.50      0.46      1115
+weighted avg       0.73      0.85      0.79      1115
+
+Final Accuracy: 0.852914798206278
+[Finished in 5.6s]
+
+############end##########
+
+
+##########random forest########
+
+       precision    recall  f1-score   support
+
+         ham       0.98      1.00      0.99       951
+        spam       0.99      0.90      0.94       164
+
+   micro avg       0.98      0.98      0.98      1115
+   macro avg       0.98      0.95      0.96      1115
+weighted avg       0.98      0.98      0.98      1115
+
+Final Accuracy: 0.9829596412556054
+
+###########end##########
+########naive baise##########
+   precision    recall  f1-score   support
+
+         ham       0.99      0.76      0.86       951
+        spam       0.41      0.96      0.58       164
+
+   micro avg       0.79      0.79      0.79      1115
+   macro avg       0.70      0.86      0.72      1115
+weighted avg       0.91      0.79      0.82      1115
+
+Final Accuracy: 0.7919282511210762
+##########end##########
